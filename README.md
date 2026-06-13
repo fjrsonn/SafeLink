@@ -25,73 +25,73 @@ Esta área apresenta capturas reais da interface do aplicativo, organizadas para
 
 ### 1. Dashboard Principal
 
-![Dashboard principal](docs/images/Interface1.png)
+<img src="docs/images/Interface1.png" alt="Dashboard principal" width="270">
 
 Texto modelo: A tela inicial apresenta o estado geral da proteção do SafeLink, destacando as camadas ativas, os indicadores de segurança e o acesso rápido às funções principais do aplicativo.
 
 ### 2. Cartão Central de Proteção
 
-![Cartão central de proteção](docs/images/Interface2.png)
+<img src="docs/images/Interface2.png" alt="Cartão central de proteção" width="270">
 
 Texto modelo: Esta área concentra o status de proteção em tempo real, permitindo que o usuário entenda rapidamente se o aplicativo está pronto para analisar links e reduzir riscos durante a navegação.
 
 ### 3. Analisador Manual de Links
 
-![Analisador manual](docs/images/Interface3.png)
+<img src="docs/images/Interface3.png" alt="Analisador manual" width="270">
 
 Texto modelo: O analisador manual permite colar links ou domínios para avaliação imediata, exibindo uma classificação local antes que o usuário decida abrir ou bloquear o destino.
 
 ### 4. Tela de Revisão de Link
 
-![Revisão de link](docs/images/Interface4.png)
+<img src="docs/images/Interface4.png" alt="Revisão de link" width="270">
 
 Texto modelo: A tela de revisão exibe o endereço analisado, o domínio identificado, o nível de risco e as ações disponíveis para continuar, copiar, cancelar ou aplicar uma decisão de confiança.
 
 ### 5. Alerta de Link Perigoso
 
-![Alerta de link perigoso](docs/images/Interface5.png)
+<img src="docs/images/Interface5.png" alt="Alerta de link perigoso" width="270">
 
 Texto modelo: Quando um link apresenta sinais fortes de golpe ou phishing, o SafeLink destaca o risco com uma interface de alerta clara, explicando os motivos antes de qualquer abertura externa.
 
 ### 6. Motivos da Classificação
 
-![Motivos da classificação](docs/images/Interface6.png)
+<img src="docs/images/Interface6.png" alt="Motivos da classificação" width="270">
 
 Texto modelo: Cada análise inclui justificativas legíveis, como ausência de HTTPS, uso de encurtadores, termos suspeitos ou padrões de domínio que podem indicar tentativa de fraude.
 
 ### 7. Histórico de Análises
 
-![Histórico de análises](docs/images/Interface7.png)
+<img src="docs/images/Interface7.png" alt="Histórico de análises" width="270">
 
 Texto modelo: O histórico organiza os links verificados, suas pontuações e decisões anteriores, facilitando a revisão de eventos e a identificação de padrões recorrentes.
 
 ### 8. Detalhes do Histórico
 
-![Detalhes do histórico](docs/images/Interface8.png)
+<img src="docs/images/Interface8.png" alt="Detalhes do histórico" width="270">
 
 Texto modelo: A tela de detalhes aprofunda uma análise específica, mostrando informações do domínio, pontuação, motivos detectados e contexto da decisão registrada.
 
 ### 9. Listas de Confiança e Bloqueio
 
-![Listas de confiança e bloqueio](docs/images/Interface9.png)
+<img src="docs/images/Interface9.png" alt="Listas de confiança e bloqueio" width="270">
 
 Texto modelo: As listas locais permitem gerenciar domínios confiáveis e bloqueados, dando ao usuário controle direto sobre políticas aplicadas nas próximas análises.
 
 ### 10. Camadas de Proteção
 
-![Camadas de proteção](docs/images/Interface10.png)
+<img src="docs/images/Interface10.png" alt="Camadas de proteção" width="270">
 
 Texto modelo: O SafeLink combina diferentes mecanismos do Android para ampliar a cobertura, incluindo navegador padrão, compartilhamento, acessibilidade e VPN local.
 
 ### 11. Painel Terminal
 
-![Painel terminal](docs/images/Interface11.png)
+<img src="docs/images/Interface11.png" alt="Painel terminal" width="270">
 
 Texto modelo: O painel terminal oferece uma forma mais direta de inserir comandos, links e domínios, criando uma experiência técnica para testes e gerenciamento rápido.
 
 ### 12. Exportação e Backup
 
-![Exportação e backup](docs/images/Interface12.png)
+<img src="docs/images/Interface12.png" alt="Exportação e backup" width="270">
 
 Texto modelo: Os recursos de exportação e backup ajudam a preservar configurações, listas locais e relatórios, facilitando auditoria, compartilhamento e restauração de preferências.
 
