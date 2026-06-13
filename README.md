@@ -23,77 +23,83 @@ O objetivo do projeto é colocar uma etapa clara de decisão entre o clique e o 
 
 Esta área apresenta capturas reais da interface do aplicativo, organizadas para mostrar as principais telas e fluxos do SafeLink.
 
-### 1. Dashboard Principal
+### 1. Dashboard e Graficos
 
 <img src="docs/images/Interface1.png" alt="Dashboard principal" width="270">
 
-Texto modelo: A tela inicial apresenta o estado geral da proteção do SafeLink, destacando as camadas ativas, os indicadores de segurança e o acesso rápido às funções principais do aplicativo.
+A tela inicial apresenta o estado geral da proteção do SafeLink, destacando informações gerais do aplicativo e suas funcionalidades, com o objetivo de resumir e apresentar o comportamento atual.
+Dashboard: Apresenta uma interface limpa e de fácil compreensão, exibindo de forma imediata o estado de cada categoria de análise: Seguro, Suspeito e Perigoso. Dessa forma, o usuário consegue visualizar rapidamente qual status predomina no cenário monitorado, facilitando a análise da situação e a tomada de decisões relacionadas à segurança.
+Gráfico Auxiliar: Exibe a frequência de resultados gerados pelas análises, agrupados por categoria de status. Essa representação gráfica facilita a interpretação dos dados e o acompanhamento da incidência de eventos classificados como Seguro, Suspeito ou Perigoso.
+Indicador: Apresenta, em ordem de recorrência, os três links mais frequentemente analisados. Essa informação permite ao usuário obter uma percepção mais clara de seus hábitos de navegação e das ações realizadas ao longo do tempo.
+Gráfico em Linhas: Apresenta ao usuário o histórico semanal da relação entre links analisados e links bloqueados. Essa visualização permite acompanhar a evolução das atividades ao longo do tempo, proporcionando uma percepção mais ampla sobre os hábitos de navegação, a efetividade das análises realizadas e o funcionamento dos mecanismos de proteção do aplicativo.
+
 
 ### 2. Cartão Central de Proteção
 
 <img src="docs/images/Interface2.png" alt="Cartão central de proteção" width="270">
 
-Texto modelo: Esta área concentra o status de proteção em tempo real, permitindo que o usuário entenda rapidamente se o aplicativo está pronto para analisar links e reduzir riscos durante a navegação.
+Esta área concentra o status de proteção em tempo real, permitindo que o usuário compreenda rapidamente se o aplicativo está pronto para analisar links e reduzir riscos durante a navegação. Além disso, possibilita a configuração do aplicativo de acordo com as permissões concedidas pelo usuário.
+Por meio do gráfico de Camadas de Segurança, é apresentado em tempo real o nível de proteção de cada perfil disponível: Rígido, Silencioso e Personalizado. O usuário pode alternar rapidamente entre as configurações predefinidas ou criar sua própria configuração por meio de um controle dedicado, sendo constantemente informado sobre o nível de segurança atualmente aplicado.
 
-### 3. Analisador Manual de Links
+### 3. Histórico de Análises
 
 <img src="docs/images/Interface3.png" alt="Analisador manual" width="270">
 
-Texto modelo: O analisador manual permite colar links ou domínios para avaliação imediata, exibindo uma classificação local antes que o usuário decida abrir ou bloquear o destino.
+O aplicativo é estruturado com uma área dedicada ao histórico de links analisados. Para cada link, são apresentadas informações detalhadas sobre seu status de segurança, permitindo que o usuário acompanhe os resultados das análises ja realizadas.
+Além disso, o sistema disponibiliza opções de interação e gerenciamento para cada registro, como Confiar, Bloquear, Copiar, Excluir e Analisar, oferecendo ao usuário maior controle sobre os links armazenados e suas respectivas classificações.
 
-### 4. Tela de Revisão de Link
+### 4. Interação Detalhes do Link pelo Histórico
 
 <img src="docs/images/Interface4.png" alt="Revisão de link" width="270">
 
-Texto modelo: A tela de revisão exibe o endereço analisado, o domínio identificado, o nível de risco e as ações disponíveis para continuar, copiar, cancelar ou aplicar uma decisão de confiança.
+Ao selecionar um link e arrastar o card para a esquerda, o usuário tem acesso aos detalhes da sua decisão, incluindo a linha do tempo e os motivos da análise, em uma única viewport. O usuário também pode retornar ao histórico a qualquer momento.
 
-### 5. Alerta de Link Perigoso
+### 5. Interação Excluir o Link pelo Histórico
 
 <img src="docs/images/Interface5.png" alt="Alerta de link perigoso" width="270">
 
-Texto modelo: Quando um link apresenta sinais fortes de golpe ou phishing, o SafeLink destaca o risco com uma interface de alerta clara, explicando os motivos antes de qualquer abertura externa.
+Ao selecionar um link e arrastar o card para a direita, o usuário tem controle de excluir permanentemente o link do histórico local. O usuário também pode retornar ao histórico a qualquer momento.
 
-### 6. Motivos da Classificação
+### 6. Painel Terminal Interno
 
 <img src="docs/images/Interface6.png" alt="Motivos da classificação" width="270">
 
-Texto modelo: Cada análise inclui justificativas legíveis, como ausência de HTTPS, uso de encurtadores, termos suspeitos ou padrões de domínio que podem indicar tentativa de fraude.
+O painel terminal oferece uma forma mais direta de inserir comandos, links e domínios, criando uma experiência técnica para testes e gerenciamento rápido. O módulo de gerenciamento manual de links e domínios, permite a aplicação de ações como bloquear, desbloquear, confiar, analisar ou reanalisar um determinado endereço.
 
-### 7. Histórico de Análises
+### 7. Analisador Manual
 
 <img src="docs/images/Interface7.png" alt="Histórico de análises" width="270">
 
-Texto modelo: O histórico organiza os links verificados, suas pontuações e decisões anteriores, facilitando a revisão de eventos e a identificação de padrões recorrentes.
+O analisador manual possibilita a inserção de links ou domínios para avaliação imediata, retornando uma classificação local que auxilia o usuário na decisão de abrir ou bloquear o destino.
 
-### 8. Detalhes do Histórico
+### 8. Aviso Seguro
 
 <img src="docs/images/Interface8.png" alt="Detalhes do histórico" width="270">
 
-Texto modelo: A tela de detalhes aprofunda uma análise específica, mostrando informações do domínio, pontuação, motivos detectados e contexto da decisão registrada.
+Ao capturar um link por meio de interação do usuário ou varredura automática, o aplicativo interrompe a ação primária para iniciar o processo de análise. Após a avaliação, é gerado um status de segurança exibido em formato de alerta, contendo os detalhes do link analisado. O sistema então retorna a classificação do link com seu respectivo nível de risco.
 
-### 9. Listas de Confiança e Bloqueio
+### 9. Aviso de Perigo
 
 <img src="docs/images/Interface9.png" alt="Listas de confiança e bloqueio" width="270">
 
-Texto modelo: As listas locais permitem gerenciar domínios confiáveis e bloqueados, dando ao usuário controle direto sobre políticas aplicadas nas próximas análises.
+Passando pelo mesmo sistema de interrupção e análise, quando um link apresenta fortes indícios de golpe ou phishing, o SafeLink destaca o risco por meio de uma interface de alerta clara, explicando os motivos antes de qualquer abertura externa. Dessa forma, o usuário pode decidir conscientemente se deseja prosseguir ou cancelar a ação.
 
-### 10. Camadas de Proteção
-
+### 10. Analise inteligente
 <img src="docs/images/Interface10.png" alt="Camadas de proteção" width="270">
 
-Texto modelo: O SafeLink combina diferentes mecanismos do Android para ampliar a cobertura, incluindo navegador padrão, compartilhamento, acessibilidade e VPN local.
+O SafeLink integra diferentes mecanismos do Android para ampliar sua cobertura, incluindo navegador padrão, compartilhamento de conteúdo, serviços de acessibilidade e VPN local. Com base em um conjunto de regras e análises voltadas à detecção de atividades maliciosas, o aplicativo identifica potenciais ameaças a partir de links e classifica seu nível de risco, gerando alertas de segurança correspondentes a cada cenário.
 
-### 11. Painel Terminal
+### 11. Alerta Suspeito
 
 <img src="docs/images/Interface11.png" alt="Painel terminal" width="270">
 
-Texto modelo: O painel terminal oferece uma forma mais direta de inserir comandos, links e domínios, criando uma experiência técnica para testes e gerenciamento rápido.
+O alerta de suspeita também passa por um sistema inteligente de pré-decisão, no qual o aplicativo distingue níveis intermediários de risco, separando situações perigosas de situações apenas suspeitas. Isso ocorre porque nem todos os links apresentam comportamento claramente seguro ou malicioso, sendo alguns apenas potencialmente arriscados e exigindo atenção do usuário. Dessa forma, o usuário recebe um alerta mais específico e contextualizado.
 
-### 12. Exportação e Backup
+### 12. Notificações
 
 <img src="docs/images/Interface12.png" alt="Exportação e backup" width="270">
 
-Texto modelo: Os recursos de exportação e backup ajudam a preservar configurações, listas locais e relatórios, facilitando auditoria, compartilhamento e restauração de preferências.
+Com a permissão do usuário, enquanto estiver em funcionamento, o aplicativo notifica o usuário sobre qualquer análise realizada, informando-o para que possa tomar uma decisão, quando necessário.
 
 ## Escopo Atual
 
