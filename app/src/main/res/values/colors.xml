@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="safelink_green">#16735F</color>
+    <color name="safelink_amber">#B56A00</color>
+    <color name="safelink_red">#B3261E</color>
+</resources>

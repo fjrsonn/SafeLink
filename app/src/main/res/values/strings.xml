@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">SafeLink</string>
+    <string name="protection_channel">Protecao SafeLink</string>
+    <string name="protection_active">Protecao ativa</string>
+    <string name="protection_active_details">O SafeLink esta pronto para revisar links antes da abertura.</string>
+    <string name="accessibility_service_label">Monitoramento de links SafeLink</string>
+    <string name="accessibility_service_description">Detecta links visiveis em chats, SMS, emails e redes sociais para exibir uma analise de seguranca antes da abertura.</string>
+    <string name="shortcut_analyze_link_short">Analisar link</string>
+    <string name="shortcut_analyze_link_long">Analisar link no SafeLink</string>
+</resources>

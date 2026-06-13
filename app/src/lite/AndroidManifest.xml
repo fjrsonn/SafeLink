@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application>
+        <service
+            android:name=".service.SafeLinkAccessibilityService"
+            tools:node="remove" />
+
+        <service
+            android:name=".service.SafeLinkVpnService"
+            tools:node="remove" />
+    </application>
+</manifest>

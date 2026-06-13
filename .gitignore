@@ -1,0 +1,30 @@
+# Gradle / Android build outputs
+.gradle/
+build/
+**/build/
+captures/
+outputs/
+
+# Local machine configuration
+local.properties
+*.iml
+.idea/
+.vscode/
+.obsidian/
+.tools/
+
+# Signing keys and generated releases
+dist/
+*.jks
+*.keystore
+*.apk
+*.aab
+
+# Logs and temporary files
+*.log
+*.tmp
+*.temp
+
+# OS files
+.DS_Store
+Thumbs.db

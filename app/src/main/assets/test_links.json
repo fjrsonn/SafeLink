@@ -1,0 +1,38 @@
+[
+  {
+    "scenario": "WhatsApp",
+    "message": "Oi, confirma esse bonus aqui: http://login-banco-premio-verificar-senha.com",
+    "expected": "Dangerous",
+    "capture_mode": "Automatico se SafeLink for navegador padrao; manual via compartilhar/copiar se o app usar navegador interno."
+  },
+  {
+    "scenario": "Instagram",
+    "message": "Promo nos stories: https://instagram-premio-login.example.com/verificar",
+    "expected": "Suspicious",
+    "capture_mode": "Instagram costuma abrir navegador interno; interceptacao automatica nao e garantida."
+  },
+  {
+    "scenario": "TikTok",
+    "message": "Bio com encurtador: https://bit.ly/presente-pix",
+    "expected": "Suspicious",
+    "capture_mode": "TikTok costuma abrir navegador interno; use compartilhar/copiar para SafeLink."
+  },
+  {
+    "scenario": "Email",
+    "message": "Sua conta sera bloqueada: http://seguranca-paypal-confirmar.example.com/login",
+    "expected": "Dangerous",
+    "capture_mode": "Automatico quando o email chama o navegador padrao."
+  },
+  {
+    "scenario": "SMS",
+    "message": "Correios: atualize o endereco em http://correios-taxas-urgente.example.com",
+    "expected": "Dangerous",
+    "capture_mode": "Automatico quando o app de SMS chama o navegador padrao."
+  },
+  {
+    "scenario": "Link seguro",
+    "message": "Documentacao Android: https://developer.android.com/privacy-and-security",
+    "expected": "Safe",
+    "capture_mode": "Usado como controle negativo."
+  }
+]
