@@ -21,77 +21,77 @@ O objetivo do projeto é colocar uma etapa clara de decisão entre o clique e o 
 
 ## Apresentação da Interface
 
-Use esta área para inserir imagens reais do aplicativo. Substitua os caminhos abaixo pelos arquivos de screenshot que você adicionar ao repositório, por exemplo `docs/images/01-dashboard.png`.
+Esta área apresenta capturas reais da interface do aplicativo, organizadas para mostrar as principais telas e fluxos do SafeLink.
 
 ### 1. Dashboard Principal
 
-![Dashboard principal](docs/images/01-dashboard-principal.png)
+![Dashboard principal](docs/images/Interface1.png)
 
 Texto modelo: A tela inicial apresenta o estado geral da proteção do SafeLink, destacando as camadas ativas, os indicadores de segurança e o acesso rápido às funções principais do aplicativo.
 
 ### 2. Cartão Central de Proteção
 
-![Cartão central de proteção](docs/images/02-cartao-protecao.png)
+![Cartão central de proteção](docs/images/Interface2.png)
 
 Texto modelo: Esta área concentra o status de proteção em tempo real, permitindo que o usuário entenda rapidamente se o aplicativo está pronto para analisar links e reduzir riscos durante a navegação.
 
 ### 3. Analisador Manual de Links
 
-![Analisador manual](docs/images/03-analisador-manual.png)
+![Analisador manual](docs/images/Interface3.png)
 
 Texto modelo: O analisador manual permite colar links ou domínios para avaliação imediata, exibindo uma classificação local antes que o usuário decida abrir ou bloquear o destino.
 
 ### 4. Tela de Revisão de Link
 
-![Revisão de link](docs/images/04-revisao-link.png)
+![Revisão de link](docs/images/Interface4.png)
 
 Texto modelo: A tela de revisão exibe o endereço analisado, o domínio identificado, o nível de risco e as ações disponíveis para continuar, copiar, cancelar ou aplicar uma decisão de confiança.
 
 ### 5. Alerta de Link Perigoso
 
-![Alerta de link perigoso](docs/images/05-alerta-perigoso.png)
+![Alerta de link perigoso](docs/images/Interface5.png)
 
 Texto modelo: Quando um link apresenta sinais fortes de golpe ou phishing, o SafeLink destaca o risco com uma interface de alerta clara, explicando os motivos antes de qualquer abertura externa.
 
 ### 6. Motivos da Classificação
 
-![Motivos da classificação](docs/images/06-motivos-classificacao.png)
+![Motivos da classificação](docs/images/Interface6.png)
 
 Texto modelo: Cada análise inclui justificativas legíveis, como ausência de HTTPS, uso de encurtadores, termos suspeitos ou padrões de domínio que podem indicar tentativa de fraude.
 
 ### 7. Histórico de Análises
 
-![Histórico de análises](docs/images/07-historico-analises.png)
+![Histórico de análises](docs/images/Interface7.png)
 
 Texto modelo: O histórico organiza os links verificados, suas pontuações e decisões anteriores, facilitando a revisão de eventos e a identificação de padrões recorrentes.
 
 ### 8. Detalhes do Histórico
 
-![Detalhes do histórico](docs/images/08-detalhes-historico.png)
+![Detalhes do histórico](docs/images/Interface8.png)
 
 Texto modelo: A tela de detalhes aprofunda uma análise específica, mostrando informações do domínio, pontuação, motivos detectados e contexto da decisão registrada.
 
 ### 9. Listas de Confiança e Bloqueio
 
-![Listas de confiança e bloqueio](docs/images/09-listas-dominios.png)
+![Listas de confiança e bloqueio](docs/images/Interface9.png)
 
 Texto modelo: As listas locais permitem gerenciar domínios confiáveis e bloqueados, dando ao usuário controle direto sobre políticas aplicadas nas próximas análises.
 
 ### 10. Camadas de Proteção
 
-![Camadas de proteção](docs/images/10-camadas-protecao.png)
+![Camadas de proteção](docs/images/Interface10.png)
 
 Texto modelo: O SafeLink combina diferentes mecanismos do Android para ampliar a cobertura, incluindo navegador padrão, compartilhamento, acessibilidade e VPN local.
 
 ### 11. Painel Terminal
 
-![Painel terminal](docs/images/11-painel-terminal.png)
+![Painel terminal](docs/images/Interface11.png)
 
 Texto modelo: O painel terminal oferece uma forma mais direta de inserir comandos, links e domínios, criando uma experiência técnica para testes e gerenciamento rápido.
 
 ### 12. Exportação e Backup
 
-![Exportação e backup](docs/images/12-exportacao-backup.png)
+![Exportação e backup](docs/images/Interface12.png)
 
 Texto modelo: Os recursos de exportação e backup ajudam a preservar configurações, listas locais e relatórios, facilitando auditoria, compartilhamento e restauração de preferências.
 
